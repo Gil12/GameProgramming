@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A16FA291E4CF5D9005CD510 /* colorDrift.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A16FA271E4CF5D9005CD510 /* colorDrift.png */; };
-		4A16FA2C1E4CFAC3005CD510 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A16FA2B1E4CFAC3005CD510 /* ball.png */; };
-		4A16FA2E1E4D19D5005CD510 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A16FA2D1E4D19D5005CD510 /* target.png */; };
-		4A1C4FD61E5CAD5D00797814 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4FD51E5CAD5D00797814 /* brick.png */; };
 		4A1C4FD91E5CBA1D00797814 /* player1Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4FD71E5CBA1D00797814 /* player1Win.png */; };
 		4A1C4FDA1E5CBA1D00797814 /* player2Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4FD81E5CBA1D00797814 /* player2Win.png */; };
 		4A1C4FDC1E5CD47300797814 /* frozenOrb.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4FDB1E5CD47300797814 /* frozenOrb.png */; };
+		4AA234D61EB2B19B0044AB3D /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA234D51EB2B19B0044AB3D /* target.png */; };
+		4AA234D81EB2B1E00044AB3D /* i-brick.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA234D71EB2B1E00044AB3D /* i-brick.png */; };
+		4AA234DA1EB2B20A0044AB3D /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA234D91EB2B20A0044AB3D /* ball.png */; };
+		4AA234DC1EB2B21C0044AB3D /* colorDrift.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA234DB1EB2B21C0044AB3D /* colorDrift.png */; };
 		6D5A86AE19AE5C710066C1FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86AD19AE5C710066C1FD /* Cocoa.framework */; };
 		6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A86B619AE5C710066C1FD /* InfoPlist.strings */; };
 		6D5A86BA19AE5C710066C1FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A86B919AE5C710066C1FD /* main.cpp */; };
@@ -31,13 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A16FA271E4CF5D9005CD510 /* colorDrift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorDrift.png; path = "../../../XCode Images/colorDrift.png"; sourceTree = "<group>"; };
-		4A16FA2B1E4CFAC3005CD510 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../../../XCode Images/ball.png"; sourceTree = "<group>"; };
-		4A16FA2D1E4D19D5005CD510 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = target.png; path = "../../../XCode Images/target.png"; sourceTree = "<group>"; };
-		4A1C4FD51E5CAD5D00797814 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brick.png; path = ../../../../Downloads/brick.png; sourceTree = "<group>"; };
 		4A1C4FD71E5CBA1D00797814 /* player1Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1Win.png; sourceTree = "<group>"; };
 		4A1C4FD81E5CBA1D00797814 /* player2Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2Win.png; sourceTree = "<group>"; };
 		4A1C4FDB1E5CD47300797814 /* frozenOrb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frozenOrb.png; sourceTree = "<group>"; };
+		4AA234D51EB2B19B0044AB3D /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		4AA234D71EB2B1E00044AB3D /* i-brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-brick.png"; sourceTree = "<group>"; };
+		4AA234D91EB2B20A0044AB3D /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		4AA234DB1EB2B21C0044AB3D /* colorDrift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorDrift.png; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6D5A86B019AE5C710066C1FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -167,11 +167,11 @@
 				6DEF23BF1B96CC2600BCE792 /* ShaderProgram.h */,
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
-				4A16FA2B1E4CFAC3005CD510 /* ball.png */,
-				4A16FA271E4CF5D9005CD510 /* colorDrift.png */,
+				4AA234DB1EB2B21C0044AB3D /* colorDrift.png */,
+				4AA234D91EB2B20A0044AB3D /* ball.png */,
 				4A1C4FDB1E5CD47300797814 /* frozenOrb.png */,
-				4A16FA2D1E4D19D5005CD510 /* target.png */,
-				4A1C4FD51E5CAD5D00797814 /* brick.png */,
+				4AA234D51EB2B19B0044AB3D /* target.png */,
+				4AA234D71EB2B1E00044AB3D /* i-brick.png */,
 				4A1C4FD71E5CBA1D00797814 /* player1Win.png */,
 				4A1C4FD81E5CBA1D00797814 /* player2Win.png */,
 			);
@@ -233,17 +233,17 @@
 			files = (
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
+				4AA234DA1EB2B20A0044AB3D /* ball.png in Resources */,
+				4AA234D61EB2B19B0044AB3D /* target.png in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
 				4A1C4FDC1E5CD47300797814 /* frozenOrb.png in Resources */,
-				4A16FA2C1E4CFAC3005CD510 /* ball.png in Resources */,
 				4A1C4FD91E5CBA1D00797814 /* player1Win.png in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
-				4A16FA291E4CF5D9005CD510 /* colorDrift.png in Resources */,
+				4AA234DC1EB2B21C0044AB3D /* colorDrift.png in Resources */,
 				4A1C4FDA1E5CBA1D00797814 /* player2Win.png in Resources */,
-				4A1C4FD61E5CAD5D00797814 /* brick.png in Resources */,
+				4AA234D81EB2B1E00044AB3D /* i-brick.png in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
 				6DEF23C41B96CC2600BCE792 /* vertex.glsl in Resources */,
-				4A16FA2E1E4D19D5005CD510 /* target.png in Resources */,
 				6DC7076A1BA7273500225B7D /* vertex_textured.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
     ShaderProgram program(RESOURCE_FOLDER"vertex_textured.glsl", RESOURCE_FOLDER"fragment_textured.glsl");
     
     GLuint snowTexture = LoadTexture(RESOURCE_FOLDER"frozenOrb.png");
-    GLuint paddleTexture=LoadTexture(RESOURCE_FOLDER"brick.png");
+    GLuint paddleTexture=LoadTexture(RESOURCE_FOLDER"i-brick.png");
     GLuint p1WinTexture=LoadTexture(RESOURCE_FOLDER"player1Win.png");
     GLuint p2WinTexture=LoadTexture(RESOURCE_FOLDER"player2Win.png");
     
@@ -151,7 +151,7 @@ int main(int argc, char *argv[])
             up=true;
         }
         
-        if(ballxPos>3.4)
+        if(ballxPos>3.15)
         {
             if((p1Pos+.4+0.2)>ballyPos && (p1Pos-0.4-0.2)<ballyPos&&!gameOver)
                 left=true;
@@ -178,7 +178,7 @@ int main(int argc, char *argv[])
 
             }
         }
-        else if(ballxPos<-3.4)
+        else if(ballxPos<-3.15)
         {
             if((p2Pos+0.4+0.2)>ballyPos && (p2Pos-0.4-0.2)<ballyPos&&!gameOver)
                 left=false;
