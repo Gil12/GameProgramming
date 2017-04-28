@@ -237,6 +237,7 @@ bool checkCollision(Entity& bullet, Entity& enemy){
         {
             bullet.isVisible=false;
             enemy.isVisible=false;
+            
             return true;
         }
     }
@@ -439,8 +440,11 @@ int main(int argc, char *argv[])
             }
             for(int j=0;j<bullets.size();j++)
             {
-                checkCollision(enemyVec[i], bullets[j]);
-                Mix_PlayChannel( -1, deadSound, 0);
+                if(checkCollision(enemyVec[i], bullets[j]))
+                {
+                    Mix_PlayChannel( -1, deadSound, 0);
+                }
+                
             }
             
             if(enemyVec[i].isVisible){
@@ -477,6 +481,12 @@ int main(int argc, char *argv[])
            {
                
                DrawText(&program, font, "You Won!!", 0.25, 0.1);
+               Mix_FreeChunk(shootSound);
+               Mix_FreeChunk(deadSound);
+
+               Mix_FreeMusic(music);
+               
+               SDL_Quit();
            }
         
         //enemy.Draw(program);
